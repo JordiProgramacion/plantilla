@@ -14,15 +14,11 @@ fun main () {
     val root = FXMLLoader.load<Parent>(Main::class.java.getResource("main.fxml"))
     val mainScene = Scene(root, 720.0, 860.0)
     
-    stage.title = "Formulario de registro"
+    stage.title = ""
     
     stage.scene = mainScene
     
     stage.show()
-    
-    Platform.runLater {
-            mainScene.root.requestFocus()
-        }
     
   }
   
