@@ -6,6 +6,7 @@ class Main : Application() {
   override fun start(stage: Stage) {
     val root = FXMLLoader.load<Parent>(Main::class.java.getResource("main.fxml"))
     val mainScene = Scene(root, 1280.0, 720.0) 
+    stage.title = "titulo"
     stage.scene = mainScene
     stage.show()
   }
