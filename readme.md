@@ -83,9 +83,20 @@ funcionalidad.
 
 </VBox>
 
+// Horizontal BOX
+
+<HBox alignment="CENTER" spacing="10.0">
+</HBox>
+
+
                     ###### TextField ######
 
+<TextField fx:id="numero" promptText="Introduce tu número telefonico aquí..." prefWidth="300.0" maxWidth="250.0"/>
 
+promptText="" --> Placeholder para poner texto que se va cuando escribes
+maxWidth=""  --> Anchura del TextField maxima
+prefWidth    --> Anchura preferida
+text=""       --> Para escribir en el textField 
 
 
 
