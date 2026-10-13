@@ -5,9 +5,7 @@ import javafx.scene.Scene
 import javafx.scene.Parent
 import javafx.stage.Stage
 
-fun main () {
-
-  class Main : Application() {
+class Main : Application() {
   
   override fun start(stage: Stage) {
     
@@ -27,8 +25,5 @@ fun main () {
 fun main () {
 
   Application.launch(Main::class.java)
-  
-}
-
   
 }
