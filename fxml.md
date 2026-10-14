@@ -32,6 +32,9 @@ Comienzo con imports:
       alignment="CENTER">
 </VBox>
 
+// Propiedad para cambiar el fondo
+style = "-fx-background-color: red;"
+
 ### Label (para poner texto) ###
 // Solo para poner una etiqueta de texto
 <Label fx:id="mensaje" text="" />
